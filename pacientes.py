@@ -21,9 +21,7 @@ class Pacientes():
     def set_edad(self,edad):
         if isinstance(edad,str):
             self.__edad = edad
-        else:
-            #aser el raise
-            pass
+
 
     def set_genero(self,genero):
         
@@ -35,9 +33,7 @@ class Pacientes():
     def set_antecedentes(self,lista):
         if isinstance(lista,list):
             self.__antecedentes_medicos = lista
-        else:
-            # aser el raise
-            pass
+
     
     def set_historial(self,fecha, motivoAtencion, diagnostico, recomendacion):
 
